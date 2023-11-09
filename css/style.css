@@ -1,0 +1,53 @@
+:root {
+    --cor1: #8D7B68;
+    --cor2: #A4907C;
+    --cor3: #C8B6A6;
+    --cor4: #eee9e2fe;
+    --cor5: #fff;
+    --cor6: #000;
+}
+
+/* backgrounds */
+
+.bg-primeiro {
+    background-color: var(--cor1) !important;
+}
+
+/* textos */
+
+.text-cinco {
+    color: var(--cor5) !important;
+}
+
+/* imagem */
+
+.img-fundo {
+    height: 60vh;
+    background-image: url('../img/img-grande.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: var(--cor1);
+    font-size: 4em;
+    text-shadow: 2px 2px 3px var(--cor5);
+}
+
+/* linha */
+
+.border-color-primary {
+    border-bottom: solid var(--cor1) !important;
+    margin-bottom: 25px;
+}
+
+/* geral */
+
+footer {
+    background-color: var(--cor1);
+    color: var(--cor5);
+}
+
+p, li {
+    font-size: 1.2em;
+    padding: 12px 0;
+    text-align: justify;
+}
